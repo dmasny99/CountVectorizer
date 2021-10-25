@@ -2,7 +2,7 @@ from typing import Iterable
 
 
 class CountVectorizer():
-    """Convert a collection of text documents to a matrix of token counts"""
+    """Converts a collection of text documents to a matrix of token counts"""
 
     def fit_transform(self, coprus: Iterable) -> Iterable:
         """Vectorizes given corpus"""
